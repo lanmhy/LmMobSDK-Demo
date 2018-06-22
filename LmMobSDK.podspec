@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://www.lmjoy.cn/"  
    
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author             = { "yihai" => "chenyihai.2008@163.com" }  
+  s.author             = { "lanmhy" => "lmios@lmjoy.cn" }  
 
   s.ios.deployment_target = '8.0' 
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
