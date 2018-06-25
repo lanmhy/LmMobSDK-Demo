@@ -36,6 +36,8 @@
     
     [LmMobSDK setDebugMode:YES];
     
+//    NSLog(@"LmMobSDK 版本号：%ld",[LmMobSDK getVersion]);
+    
     
     return YES;
 }
