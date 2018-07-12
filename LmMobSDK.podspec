@@ -7,7 +7,8 @@ Pod::Spec.new do |s|
   s.homepage     = "http://www.lmjoy.cn/"  
   s.documentation_url = "https://github.com/lanmhy/LmMobSDK-integrated-document/blob/master/LmMobSDK-integrated-document/%E8%93%9D%E8%8E%93%E8%81%9A%E5%90%88SDK%E4%BD%BF%E7%94%A8CocoaPods%E9%9B%86%E6%88%90%E6%96%87%E6%A1%A3/3.0.0/%E8%93%9D%E8%8E%93%E8%81%9A%E5%90%88SDK%E4%BD%BF%E7%94%A8CocoaPods%E9%9B%86%E6%88%90%E6%96%87%E6%A1%A3.pdf"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author             = { "lanmhy" => "lmios@lmjoy.cn" }  
+  s.authors          = { "lanmhy" => "lmios@lmjoy.cn",
+                         "yihai"  => "chenyihai.2008@163.com" }  
 
   s.ios.deployment_target = '8.0' 
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
