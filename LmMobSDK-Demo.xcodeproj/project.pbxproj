@@ -58,8 +58,9 @@
 		84624A9F208DCE6100CC9F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84624A9D208DCE6100CC9F79 /* LaunchScreen.storyboard */; };
 		84624AAA208DCE6100CC9F79 /* LmMobSDK_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84624AA9208DCE6100CC9F79 /* LmMobSDK_DemoTests.m */; };
 		84624AB5208DCE6100CC9F79 /* LmMobSDK_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84624AB4208DCE6100CC9F79 /* LmMobSDK_DemoUITests.m */; };
+		84A9C98220FE28C0006CFFAA /* libLmMobSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A9C98120FE28C0006CFFAA /* libLmMobSDK.a */; };
+		84A9C98420FE28F8006CFFAA /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A9C98320FE28F8006CFFAA /* libresolv.9.tbd */; };
 		84CC17E220F5F7E6007A8B43 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CC17E120F5F7E6007A8B43 /* GoogleMobileAds.framework */; };
-		84CC17E420F5F813007A8B43 /* libLmMobSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CC17E320F5F813007A8B43 /* libLmMobSDK.a */; };
 		84D83E1D208DD0BA001B3F7D /* LMMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D83E1B208DD0BA001B3F7D /* LMMainView.m */; };
 		84D83E1E208DD0BA001B3F7D /* LMMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D83E1C208DD0BA001B3F7D /* LMMainView.xib */; };
 /* End PBXBuildFile section */
@@ -144,8 +145,9 @@
 		84624AB0208DCE6100CC9F79 /* LmMobSDK-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LmMobSDK-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84624AB4208DCE6100CC9F79 /* LmMobSDK_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LmMobSDK_DemoUITests.m; sourceTree = "<group>"; };
 		84624AB6208DCE6100CC9F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A9C98120FE28C0006CFFAA /* libLmMobSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLmMobSDK.a; sourceTree = "<group>"; };
+		84A9C98320FE28F8006CFFAA /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
 		84CC17E120F5F7E6007A8B43 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
-		84CC17E320F5F813007A8B43 /* libLmMobSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLmMobSDK.a; sourceTree = "<group>"; };
 		84D83E1A208DD0BA001B3F7D /* LMMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMMainView.h; sourceTree = "<group>"; };
 		84D83E1B208DD0BA001B3F7D /* LMMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMMainView.m; sourceTree = "<group>"; };
 		84D83E1C208DD0BA001B3F7D /* LMMainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMMainView.xib; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A9C98420FE28F8006CFFAA /* libresolv.9.tbd in Frameworks */,
 				8458408F2090367E0086D399 /* GameController.framework in Frameworks */,
 				8458408D2090362F0086D399 /* UIKit.framework in Frameworks */,
 				8458408B209036270086D399 /* JavaScriptCore.framework in Frameworks */,
@@ -168,7 +171,7 @@
 				84584081209036000086D399 /* Social.framework in Frameworks */,
 				843D262220C62D2600416D6E /* MVSDKReward.framework in Frameworks */,
 				8458407F209035F90086D399 /* Security.framework in Frameworks */,
-				84CC17E420F5F813007A8B43 /* libLmMobSDK.a in Frameworks */,
+				84A9C98220FE28C0006CFFAA /* libLmMobSDK.a in Frameworks */,
 				8458407D209035EF0086D399 /* QuartzCore.framework in Frameworks */,
 				8458407B209035E70086D399 /* MobileCoreServices.framework in Frameworks */,
 				84584079209035DF0086D399 /* MessageUI.framework in Frameworks */,
@@ -254,6 +257,7 @@
 		8458404F2090354A0086D399 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84A9C98320FE28F8006CFFAA /* libresolv.9.tbd */,
 				8458408E2090367E0086D399 /* GameController.framework */,
 				8458408C2090362F0086D399 /* UIKit.framework */,
 				8458408A209036270086D399 /* JavaScriptCore.framework */,
@@ -372,7 +376,7 @@
 			children = (
 				843D260F20C62D1700416D6E /* Assets */,
 				843D261320C62D2600416D6E /* frameworks */,
-				84CC17E320F5F813007A8B43 /* libLmMobSDK.a */,
+				84A9C98120FE28C0006CFFAA /* libLmMobSDK.a */,
 				843D260D20C62C9400416D6E /* LmMobSDK.h */,
 			);
 			path = LmMobSDK;
