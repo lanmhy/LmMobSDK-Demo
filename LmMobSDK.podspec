@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LmMobSDK"                
-  s.version      = "3.0.1"                        
+  s.version      = "4.0.0"                        
   s.summary      = "蓝莓互娱 提供的iOS端的SDK."           
   s.description      = "帮助开发者在开发项目时可以通过有效的第三方来更好更快的完善自己的激励视频，实现游戏变现，增加开发者收益."                 
   s.homepage     = "http://www.lmjoy.cn/"  
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   
   s.frameworks = 'Accelerate', 'AdSupport','AudioToolbox','AVFoundation','CFNetwork','CoreGraphics','CoreLocation','CoreTelephony','CoreMedia','CoreMotion','EventKit','GLKit','iAd','ImageIO','MediaPlayer','MessageUI','MobileCoreServices','QuartzCore','Security','Social','StoreKit','SystemConfiguration','WatchConnectivity','JavaScriptCore'   
   s.weak_framework = 'WebKit', 'UIKit', 'Foundation'
-  s.libraries = 'c++','sqlite3','xml2','z'
+  s.libraries = 'c++','sqlite3','xml2','z','resolv.9'
 
   s.source       = { :git => "https://github.com/lanmhy/LmMobSDK-iOS.git", :tag => s.version }  
   s.source_files  = "LmMobSDK", "LmMobSDK/**/*.{h,m}"
