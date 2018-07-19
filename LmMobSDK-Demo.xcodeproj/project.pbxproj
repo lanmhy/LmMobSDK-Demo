@@ -50,6 +50,7 @@
 		8458408B209036270086D399 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8458408A209036270086D399 /* JavaScriptCore.framework */; };
 		8458408D2090362F0086D399 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8458408C2090362F0086D399 /* UIKit.framework */; };
 		8458408F2090367E0086D399 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8458408E2090367E0086D399 /* GameController.framework */; };
+		845BCF6B2100AD6C0056244F /* libLmMobSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 845BCF6A2100AD6C0056244F /* libLmMobSDK.a */; };
 		84624A91208DCE6100CC9F79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84624A90208DCE6100CC9F79 /* main.m */; };
 		84624A94208DCE6100CC9F79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84624A93208DCE6100CC9F79 /* AppDelegate.m */; };
 		84624A97208DCE6100CC9F79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84624A96208DCE6100CC9F79 /* ViewController.m */; };
@@ -62,7 +63,6 @@
 		84CC17E220F5F7E6007A8B43 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CC17E120F5F7E6007A8B43 /* GoogleMobileAds.framework */; };
 		84D83E1D208DD0BA001B3F7D /* LMMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D83E1B208DD0BA001B3F7D /* LMMainView.m */; };
 		84D83E1E208DD0BA001B3F7D /* LMMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D83E1C208DD0BA001B3F7D /* LMMainView.xib */; };
-		84ECFAB820FF1F8C00B83BF5 /* libLmMobSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECFAB720FF1F8C00B83BF5 /* libLmMobSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +129,7 @@
 		8458408C2090362F0086D399 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8458408E2090367E0086D399 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
 		84584090209066A30086D399 /* LmMobSDK-Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "LmMobSDK-Demo.entitlements"; sourceTree = "<group>"; };
+		845BCF6A2100AD6C0056244F /* libLmMobSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLmMobSDK.a; sourceTree = "<group>"; };
 		84624A8C208DCE6000CC9F79 /* LmMobSDK-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LmMobSDK-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84624A90208DCE6100CC9F79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84624A92208DCE6100CC9F79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -150,7 +151,6 @@
 		84D83E1A208DD0BA001B3F7D /* LMMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMMainView.h; sourceTree = "<group>"; };
 		84D83E1B208DD0BA001B3F7D /* LMMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMMainView.m; sourceTree = "<group>"; };
 		84D83E1C208DD0BA001B3F7D /* LMMainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMMainView.xib; sourceTree = "<group>"; };
-		84ECFAB720FF1F8C00B83BF5 /* libLmMobSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLmMobSDK.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,7 +174,7 @@
 				8458407D209035EF0086D399 /* QuartzCore.framework in Frameworks */,
 				8458407B209035E70086D399 /* MobileCoreServices.framework in Frameworks */,
 				84584079209035DF0086D399 /* MessageUI.framework in Frameworks */,
-				84ECFAB820FF1F8C00B83BF5 /* libLmMobSDK.a in Frameworks */,
+				845BCF6B2100AD6C0056244F /* libLmMobSDK.a in Frameworks */,
 				84CC17E220F5F7E6007A8B43 /* GoogleMobileAds.framework in Frameworks */,
 				84584077209035D90086D399 /* MediaPlayer.framework in Frameworks */,
 				84584075209035D30086D399 /* ImageIO.framework in Frameworks */,
@@ -376,7 +376,7 @@
 			children = (
 				843D260F20C62D1700416D6E /* Assets */,
 				843D261320C62D2600416D6E /* frameworks */,
-				84ECFAB720FF1F8C00B83BF5 /* libLmMobSDK.a */,
+				845BCF6A2100AD6C0056244F /* libLmMobSDK.a */,
 				843D260D20C62C9400416D6E /* LmMobSDK.h */,
 			);
 			path = LmMobSDK;
