@@ -10,9 +10,9 @@
  *  unityAds       2.2.1
  *  Chartboost     7.2.0
  *  Centrixlink    2.5.4
- *  Mobvista       3.4.1
+ *  Mobvista       4.1.0
  *  Adcolony       3.3.5.0
- *  Admob          7.31.81
+ *  Admob          7.31.0
  */
 
 #import <Foundation/Foundation.h>
