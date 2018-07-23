@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LmMobSDK"                
-  s.version      = "5.0.0"                        
+  s.version      = "5.0.1"                        
   s.summary      = "蓝莓互娱 提供的iOS端的SDK."           
   s.description      = "帮助开发者在开发项目时可以通过有效的第三方来更好更快的完善自己的激励视频，实现游戏变现，增加开发者收益."                 
   s.homepage     = "http://www.lmjoy.cn/"  
@@ -29,10 +29,17 @@ Pod::Spec.new do |s|
   s.public_header_files = 'LmMobSDK/LmMobSDK.h'
 
   s.requires_arc = true
+   
+  s.subspec 'Vungle' do |vungle|
 
-  s.dependency 'VungleSDK-iOS', '~> 6.2.0'  #依赖的其它框架
+       vungle.dependency 'VungleSDK-iOS', '~> 6.2.0'   #这里是直接引用了VungleSDK的cocoapod
 
-  s.dependency 'Google-Mobile-Ads-SDK', '~> 7.31.0'
+   end
 
+  s.subspec 'Admob' do |admob|
+
+       admob.dependency 'Google-Mobile-Ads-SDK', '~> 7.31.0'   #这里是直接引用了Admob 的cocoapod
+       
+   end
 
 end
