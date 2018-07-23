@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842377682102197D00B66996 /* MTGSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842377662102197C00B66996 /* MTGSDK.framework */; };
+		842377692102197D00B66996 /* MTGSDKReward.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842377672102197C00B66996 /* MTGSDKReward.framework */; };
+		8423776B2102199700B66996 /* libLmMobSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8423776A2102199700B66996 /* libLmMobSDK.a */; };
 		843D261B20C62D2600416D6E /* LmMobStartedIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 843D261020C62D1700416D6E /* LmMobStartedIcon.png */; };
 		843D261C20C62D2600416D6E /* LmMobUnstartedIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 843D261120C62D1700416D6E /* LmMobUnstartedIcon.png */; };
 		843D261D20C62D2600416D6E /* UnityAds.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 843D261220C62D1700416D6E /* UnityAds.bundle */; };
 		843D261E20C62D2600416D6E /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843D261420C62D2600416D6E /* AdColony.framework */; };
 		843D261F20C62D2600416D6E /* Centrixlink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843D261520C62D2600416D6E /* Centrixlink.framework */; };
 		843D262020C62D2600416D6E /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843D261620C62D2600416D6E /* Chartboost.framework */; };
-		843D262120C62D2600416D6E /* MVSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843D261720C62D2600416D6E /* MVSDK.framework */; };
-		843D262220C62D2600416D6E /* MVSDKReward.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843D261820C62D2600416D6E /* MVSDKReward.framework */; };
 		843D262320C62D2600416D6E /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843D261920C62D2600416D6E /* UnityAds.framework */; };
 		843D262420C62D2600416D6E /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843D261A20C62D2600416D6E /* VungleSDK.framework */; };
 		843F218C20B6CE2F0055B7BD /* LmMobTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843F218B20B6CE2F0055B7BD /* LmMobTipsView.m */; };
@@ -50,7 +51,6 @@
 		8458408B209036270086D399 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8458408A209036270086D399 /* JavaScriptCore.framework */; };
 		8458408D2090362F0086D399 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8458408C2090362F0086D399 /* UIKit.framework */; };
 		8458408F2090367E0086D399 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8458408E2090367E0086D399 /* GameController.framework */; };
-		845BCF6B2100AD6C0056244F /* libLmMobSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 845BCF6A2100AD6C0056244F /* libLmMobSDK.a */; };
 		84624A91208DCE6100CC9F79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84624A90208DCE6100CC9F79 /* main.m */; };
 		84624A94208DCE6100CC9F79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84624A93208DCE6100CC9F79 /* AppDelegate.m */; };
 		84624A97208DCE6100CC9F79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84624A96208DCE6100CC9F79 /* ViewController.m */; };
@@ -83,6 +83,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		842377662102197C00B66996 /* MTGSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDK.framework; sourceTree = "<group>"; };
+		842377672102197C00B66996 /* MTGSDKReward.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKReward.framework; sourceTree = "<group>"; };
+		8423776A2102199700B66996 /* libLmMobSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLmMobSDK.a; sourceTree = "<group>"; };
 		843D260D20C62C9400416D6E /* LmMobSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LmMobSDK.h; sourceTree = "<group>"; };
 		843D261020C62D1700416D6E /* LmMobStartedIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LmMobStartedIcon.png; sourceTree = "<group>"; };
 		843D261120C62D1700416D6E /* LmMobUnstartedIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LmMobUnstartedIcon.png; sourceTree = "<group>"; };
@@ -90,8 +93,6 @@
 		843D261420C62D2600416D6E /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdColony.framework; sourceTree = "<group>"; };
 		843D261520C62D2600416D6E /* Centrixlink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Centrixlink.framework; sourceTree = "<group>"; };
 		843D261620C62D2600416D6E /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
-		843D261720C62D2600416D6E /* MVSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MVSDK.framework; sourceTree = "<group>"; };
-		843D261820C62D2600416D6E /* MVSDKReward.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MVSDKReward.framework; sourceTree = "<group>"; };
 		843D261920C62D2600416D6E /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
 		843D261A20C62D2600416D6E /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
 		843F218A20B6CE2F0055B7BD /* LmMobTipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LmMobTipsView.h; sourceTree = "<group>"; };
@@ -129,7 +130,6 @@
 		8458408C2090362F0086D399 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8458408E2090367E0086D399 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
 		84584090209066A30086D399 /* LmMobSDK-Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "LmMobSDK-Demo.entitlements"; sourceTree = "<group>"; };
-		845BCF6A2100AD6C0056244F /* libLmMobSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLmMobSDK.a; sourceTree = "<group>"; };
 		84624A8C208DCE6000CC9F79 /* LmMobSDK-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LmMobSDK-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84624A90208DCE6100CC9F79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84624A92208DCE6100CC9F79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -165,17 +165,17 @@
 				845840892090361F0086D399 /* WebKit.framework in Frameworks */,
 				84584087209036170086D399 /* WatchConnectivity.framework in Frameworks */,
 				84584085209036100086D399 /* SystemConfiguration.framework in Frameworks */,
-				843D262120C62D2600416D6E /* MVSDK.framework in Frameworks */,
 				84584083209036070086D399 /* StoreKit.framework in Frameworks */,
 				843D261F20C62D2600416D6E /* Centrixlink.framework in Frameworks */,
 				84584081209036000086D399 /* Social.framework in Frameworks */,
-				843D262220C62D2600416D6E /* MVSDKReward.framework in Frameworks */,
 				8458407F209035F90086D399 /* Security.framework in Frameworks */,
 				8458407D209035EF0086D399 /* QuartzCore.framework in Frameworks */,
 				8458407B209035E70086D399 /* MobileCoreServices.framework in Frameworks */,
+				842377692102197D00B66996 /* MTGSDKReward.framework in Frameworks */,
 				84584079209035DF0086D399 /* MessageUI.framework in Frameworks */,
-				845BCF6B2100AD6C0056244F /* libLmMobSDK.a in Frameworks */,
 				84CC17E220F5F7E6007A8B43 /* GoogleMobileAds.framework in Frameworks */,
+				8423776B2102199700B66996 /* libLmMobSDK.a in Frameworks */,
+				842377682102197D00B66996 /* MTGSDK.framework in Frameworks */,
 				84584077209035D90086D399 /* MediaPlayer.framework in Frameworks */,
 				84584075209035D30086D399 /* ImageIO.framework in Frameworks */,
 				843D262420C62D2600416D6E /* VungleSDK.framework in Frameworks */,
@@ -233,12 +233,12 @@
 		843D261320C62D2600416D6E /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				842377662102197C00B66996 /* MTGSDK.framework */,
+				842377672102197C00B66996 /* MTGSDKReward.framework */,
 				84CC17E120F5F7E6007A8B43 /* GoogleMobileAds.framework */,
 				843D261420C62D2600416D6E /* AdColony.framework */,
 				843D261520C62D2600416D6E /* Centrixlink.framework */,
 				843D261620C62D2600416D6E /* Chartboost.framework */,
-				843D261720C62D2600416D6E /* MVSDK.framework */,
-				843D261820C62D2600416D6E /* MVSDKReward.framework */,
 				843D261920C62D2600416D6E /* UnityAds.framework */,
 				843D261A20C62D2600416D6E /* VungleSDK.framework */,
 			);
@@ -376,7 +376,7 @@
 			children = (
 				843D260F20C62D1700416D6E /* Assets */,
 				843D261320C62D2600416D6E /* frameworks */,
-				845BCF6A2100AD6C0056244F /* libLmMobSDK.a */,
+				8423776A2102199700B66996 /* libLmMobSDK.a */,
 				843D260D20C62C9400416D6E /* LmMobSDK.h */,
 			);
 			path = LmMobSDK;
